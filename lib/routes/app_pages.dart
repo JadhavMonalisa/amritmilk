@@ -13,6 +13,7 @@ class AppPages {
   static const initial = AppRoutes.defaultRoute;
 
   static final all = [
+    ///splash
     GetPage(
       name: AppRoutes.defaultRoute,
       page: () => const SplashScreen(),
