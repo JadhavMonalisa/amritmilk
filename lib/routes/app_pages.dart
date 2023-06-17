@@ -30,6 +30,7 @@ class AppPages {
       page: () => const RegistrationScreen(),
       binding: RegiBinding(),
     ),
+    ///dashboard
     GetPage(
       name: AppRoutes.dashboardScreen,
       page: () => const DashboardScreen(),
