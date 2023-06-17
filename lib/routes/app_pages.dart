@@ -36,6 +36,7 @@ class AppPages {
       page: () => const DashboardScreen(),
       binding: DashboardBinding(),
     ),
+    ///qr code
     GetPage(
       name: AppRoutes.qrCodeScanScreen,
       page: () => const QrCodeScanScreen(),
